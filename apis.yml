@@ -15,10 +15,10 @@ apis:
     baseUrl: https://api.telewerken.example.com/v1
     version: v1
     tags:
-      - remote work
-      - teleworking
-      - workspace management
-      - scheduling
+      - Remote Work
+      - Scheduling
+      - Teleworking
+      - Workspace Management
     properties:
       - type: Documentation
         url: https://docs.telewerken.example.com/api
@@ -48,10 +48,10 @@ apis:
     baseUrl: https://api.telewerken.example.com/v1/scheduling
     version: v1
     tags:
-      - scheduling
-      - time tracking
-      - availability
-      - calendar
+      - Availability
+      - Calendar
+      - Scheduling
+      - Time Tracking
     properties:
       - type: Documentation
         url: https://docs.telewerken.example.com/api/scheduling
@@ -64,10 +64,10 @@ apis:
     baseUrl: https://api.telewerken.example.com/v1/workspace
     version: v1
     tags:
-      - workspace
-      - desk booking
-      - meeting rooms
-      - resources
+      - Desk Booking
+      - Meeting Rooms
+      - Resources
+      - Workspace
     properties:
       - type: Documentation
         url: https://docs.telewerken.example.com/api/workspace
@@ -80,10 +80,10 @@ apis:
     baseUrl: https://api.telewerken.example.com/v1/analytics
     version: v1
     tags:
-      - analytics
-      - reporting
-      - metrics
-      - productivity
+      - Analytics
+      - Metrics
+      - Productivity
+      - Reporting
     properties:
       - type: Documentation
         url: https://docs.telewerken.example.com/api/analytics
@@ -94,13 +94,13 @@ maintainers:
     email: api-team@telewerken.example.com
     url: https://telewerken.example.com/about
 tags:
-  - remote work
-  - teleworking
-  - hybrid work
-  - workspace management
-  - employee scheduling
-  - productivity
-  - collaboration
+  - Collaboration
+  - Employee Scheduling
+  - Hybrid Work
+  - Productivity
+  - Remote Work
+  - Teleworking
+  - Workspace Management
 include:
   - name: Telewerken Partner APIs
     url: https://partners.telewerken.example.com/apis.yaml
