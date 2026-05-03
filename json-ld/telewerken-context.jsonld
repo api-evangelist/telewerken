@@ -1,0 +1,53 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "tw": "https://www.telewerken.be/vocabulary/",
+    "name": "schema:name",
+    "description": "schema:description",
+    "url": "schema:url",
+    "GovernmentOrganization": {
+      "@id": "schema:GovernmentOrganization",
+      "@context": {
+        "legalName": "schema:legalName",
+        "areaServed": "schema:areaServed"
+      }
+    },
+    "TeleworkPolicy": {
+      "@id": "tw:TeleworkPolicy",
+      "@context": {
+        "legalBasis": "tw:legalBasis",
+        "workType": "tw:workType",
+        "minimumFrequency": "tw:minimumFrequency",
+        "requiresWrittenAgreement": "tw:requiresWrittenAgreement"
+      }
+    },
+    "TeleworkAgreement": {
+      "@id": "tw:TeleworkAgreement",
+      "@context": {
+        "employee": "schema:employee",
+        "employer": "schema:hiringOrganization",
+        "startDate": "schema:startDate",
+        "workLocation": "schema:workLocation",
+        "daysPerWeek": "tw:daysPerWeek"
+      }
+    },
+    "HomeOfficeAllowance": {
+      "@id": "tw:HomeOfficeAllowance",
+      "@context": {
+        "amount": "schema:price",
+        "currency": "schema:priceCurrency",
+        "period": "schema:paymentPeriod",
+        "taxFree": "tw:taxFree"
+      }
+    },
+    "CollectiveBargainingAgreement": {
+      "@id": "tw:CollectiveBargainingAgreement",
+      "@context": {
+        "identifier": "schema:identifier",
+        "dateAdopted": "schema:datePublished",
+        "jurisdiction": "schema:addressCountry"
+      }
+    }
+  }
+}

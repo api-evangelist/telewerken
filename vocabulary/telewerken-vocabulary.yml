@@ -1,0 +1,91 @@
+vocabulary:
+  provider: Telewerken
+  description: >-
+    Core vocabulary for Belgian telework (telewerken) regulations, covering legal
+    frameworks, employer obligations, employee rights, and telework classifications
+    under Belgian law.
+  tags:
+    - Belgium
+    - Employment Law
+    - Remote Work
+    - Telework
+  terms:
+    - term: Telewerken (Telework)
+      definition: >-
+        The Dutch/Flemish term for teleworking or remote work — performing regular work
+        activities from a location other than the employer's premises, typically the
+        employee's home or another agreed location.
+      tags:
+        - Remote Work
+    - term: Structureel Telewerken (Structural Telework)
+      definition: >-
+        Regular telework performed on an ongoing basis, typically at least one day per
+        week. Governed by Collective Bargaining Agreement No. 85 (CAO 85). Requires a
+        written agreement and entitles employees to equipment and connectivity reimbursement
+        from the employer.
+      tags:
+        - Employment Law
+        - Structural Telework
+    - term: Occasioneel Telewerken (Occasional Telework)
+      definition: >-
+        Sporadic telework performed due to personal reasons or force majeure, governed by
+        the Law of 5 March 2017 on feasible and workable work. Less formal than structural
+        telework, with fewer mandatory written requirements.
+      tags:
+        - Employment Law
+        - Occasional Telework
+    - term: CAO 85 (Collective Bargaining Agreement No. 85)
+      definition: >-
+        The Belgian collective labour agreement originally adopted in 2005 that governs
+        structural telework. Requires employers to provide necessary equipment, cover
+        connectivity costs, and ensure equivalent rights for teleworkers.
+      tags:
+        - Employment Law
+        - Legal Framework
+    - term: Recht op Deconnectie (Right to Disconnect)
+      definition: >-
+        Belgian legislation passed on 10 November 2022 requiring employers with 20+
+        employees to provide employees the right to be unreachable outside working hours.
+        Particularly relevant for remote workers without physical separation from work.
+      tags:
+        - Employee Rights
+        - Work-Life Balance
+    - term: Thuiskantoor Vergoeding (Home Office Allowance)
+      definition: >-
+        A tax-free lump-sum payment employers can make to structural teleworkers for home
+        office costs. As of March 2026, the maximum is EUR 160.99 per month, covering
+        electricity, heating, water, insurance, and office supplies.
+      tags:
+        - Compensation
+        - Tax
+    - term: FOD Mobiliteit en Vervoer
+      definition: >-
+        Belgian Federal Public Service for Mobility and Transport — one of the co-operators
+        of the Telewerken.be platform, promoting telework as a tool for reducing commuting
+        and improving traffic flow.
+      tags:
+        - Government
+        - Operator
+    - term: Vias Institute
+      definition: >-
+        Belgian road safety institute and co-operator of Telewerken.be. Promotes telework
+        as a measure to reduce road accidents and traffic congestion.
+      tags:
+        - Government
+        - Road Safety
+    - term: Vrijwillig Telewerken (Voluntary Telework)
+      definition: >-
+        Belgian telework is legally voluntary for both parties: employers cannot force
+        employees to telework, and employees have no automatic right to demand it. Any
+        arrangement requires mutual agreement.
+      tags:
+        - Employee Rights
+        - Voluntary
+    - term: Gelijkwaardigheidsbeginsel (Equivalence Principle)
+      definition: >-
+        Under CBA 85, teleworkers must enjoy equivalent rights to comparable on-site
+        employees with respect to working conditions, access to company information,
+        and career development.
+      tags:
+        - Employee Rights
+        - Equality

@@ -1,86 +1,36 @@
-# Telewerken APIs (telewerken)
-API catalog for Telewerken - remote work and teleworking services platform
+# Telewerken
 
-**URL:** [Visit APIs.json URL](https://telewerken.example.com)
+Telewerken.be is a Belgian information platform dedicated to remote work (telewerken), operated jointly by Vias Institute and the FOD Mobiliteit en Vervoer (Federal Public Service for Mobility and Transport). The platform provides comprehensive resources on Belgian telework legislation, regulations, employer obligations, employee rights, and telework statistics. Belgium's remote work framework is governed by Collective Bargaining Agreement No. 85 (CBA 85) and the Law of 5 March 2017 on feasible and workable work.
 
-## Tags:
+**Website:** https://www.telewerken.be/
 
- - remote work, teleworking, hybrid work, workspace management, employee scheduling, productivity, collaboration
+## Legal Framework
 
-## Timestamps
+| Law | Scope |
+|-----|-------|
+| **CAO 85 / CBA 85** | Structural telework (regular, at least 1 day/week) |
+| **Law of 5 March 2017** | Occasional/sporadic telework |
+| **Right to Disconnect (2022)** | Employers 20+ employees must formalize right to disconnect |
 
-- **Created:** 2024-01-15 00:00:00+00:00 
-- **Modified:** 2024-01-15 00:00:00+00:00 
+## Key Facts
 
-## APIs
+- Telework is **voluntary** — employers cannot force it, employees have no automatic right to demand it
+- Structural teleworkers are entitled to employer-provided equipment and connectivity reimbursement
+- Home office allowance: up to EUR 160.99/month (tax-free, as of March 2026)
+- Equivalent rights to on-site employees under equivalence principle
 
-### Telewerken Core API
-Primary API for managing remote work resources, employee schedules, and workspace bookings
+## Links
 
-**Human URL:** [https://telewerken.example.com/api](https://telewerken.example.com/api)
+- [Telewerken.be](https://www.telewerken.be/)
+- [Statistics](https://www.telewerken.be/in-cijfers/telewerken-in-het-buitenland/)
+- [Government Portal - Telework](https://werk.belgie.be/nl/themas/welzijn-op-het-werk/telewerk)
+- [Federal Public Service Resource](https://fedweb.belgium.be/nl/verlof_afwezigheid_en_werktijd/werktijd/telewerk)
 
+## Artifacts
 
-#### Tags:
-
- - remote work, teleworking, workspace management, scheduling
-
-#### Properties
-
-- [Documentation](https://docs.telewerken.example.com/api)
-- [OpenAPI](https://api.telewerken.example.com/v1/openapi.json)
-- [Authentication](https://docs.telewerken.example.com/api/authentication)
-- [Pricing](https://telewerken.example.com/pricing)
-- [TermsOfService](https://telewerken.example.com/terms)
-- [Contact](https://telewerken.example.com/contact)
-- [StatusPage](https://status.telewerken.example.com)
-
-### Telewerken Scheduling API
-API for managing employee work schedules, time tracking, and availability
-
-**Human URL:** [https://telewerken.example.com/api/scheduling](https://telewerken.example.com/api/scheduling)
-
-
-#### Tags:
-
- - scheduling, time tracking, availability, calendar
-
-#### Properties
-
-- [Documentation](https://docs.telewerken.example.com/api/scheduling)
-- [OpenAPI](https://api.telewerken.example.com/v1/scheduling/openapi.json)
-
-### Telewerken Workspace API
-API for managing physical and virtual workspace resources and bookings
-
-**Human URL:** [https://telewerken.example.com/api/workspace](https://telewerken.example.com/api/workspace)
-
-
-#### Tags:
-
- - workspace, desk booking, meeting rooms, resources
-
-#### Properties
-
-- [Documentation](https://docs.telewerken.example.com/api/workspace)
-- [OpenAPI](https://api.telewerken.example.com/v1/workspace/openapi.json)
-
-### Telewerken Analytics API
-API for accessing remote work analytics, productivity metrics, and reporting
-
-**Human URL:** [https://telewerken.example.com/api/analytics](https://telewerken.example.com/api/analytics)
-
-
-#### Tags:
-
- - analytics, reporting, metrics, productivity
-
-#### Properties
-
-- [Documentation](https://docs.telewerken.example.com/api/analytics)
-- [OpenAPI](https://api.telewerken.example.com/v1/analytics/openapi.json)
-
-## Maintainers
-
-**FN:** Telewerken API Team
-
-**Email:** api-team@telewerken.example.com
+| Artifact | Description |
+|----------|-------------|
+| [apis.yml](apis.yml) | API catalog index |
+| [vocabulary/telewerken-vocabulary.yml](vocabulary/telewerken-vocabulary.yml) | Domain vocabulary (Belgian telework terms) |
+| [json-ld/telewerken-context.jsonld](json-ld/telewerken-context.jsonld) | JSON-LD context |
+| [json-schema/telewerken-policy-schema.json](json-schema/telewerken-policy-schema.json) | Telework policy schema |

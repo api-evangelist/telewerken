@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.telewerken.be/schemas/telework-policy",
+  "title": "Belgian Telework Policy",
+  "description": "Schema for representing Belgian telework arrangements and policies under CBA 85",
+  "type": "object",
+  "properties": {
+    "policyType": {
+      "type": "string",
+      "description": "Type of telework arrangement",
+      "enum": ["structural", "occasional"]
+    },
+    "legalBasis": {
+      "type": "string",
+      "description": "Legal framework governing this telework arrangement",
+      "enum": ["CAO85", "Law2017", "mutual_agreement"]
+    },
+    "employee": {
+      "type": "object",
+      "description": "The teleworking employee",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "role": { "type": "string" }
+      }
+    },
+    "employer": {
+      "type": "object",
+      "description": "The employer organization",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "size": {
+          "type": "string",
+          "enum": ["small", "medium", "large"],
+          "description": "Affects right-to-disconnect obligations (20+ employees)"
+        }
+      }
+    },
+    "workLocation": {
+      "type": "object",
+      "description": "Primary telework location",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["home", "coworking", "other"]
+        },
+        "country": { "type": "string" },
+        "municipality": { "type": "string" }
+      }
+    },
+    "schedule": {
+      "type": "object",
+      "description": "Telework schedule",
+      "properties": {
+        "daysPerWeek": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "fixedDays": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["monday", "tuesday", "wednesday", "thursday", "friday"]
+          }
+        }
+      }
+    },
+    "allowances": {
+      "type": "object",
+      "description": "Financial allowances for telework",
+      "properties": {
+        "monthlyAmount": {
+          "type": "number",
+          "description": "Monthly home office allowance in EUR (max 160.99 as of March 2026)"
+        },
+        "currency": {
+          "type": "string",
+          "default": "EUR"
+        }
+      }
+    },
+    "rightsToDisconnect": {
+      "type": "boolean",
+      "description": "Whether the right to disconnect has been formally established"
+    },
+    "equipmentProvided": {
+      "type": "array",
+      "description": "Equipment provided by employer for telework",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": ["policyType", "legalBasis"]
+}
