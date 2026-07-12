@@ -21,6 +21,8 @@ tags:
   - Work-Life Balance
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/telewerken-domain-security.yml
   - type: Website
     url: https://www.telewerken.be/
   - type: Documentation
