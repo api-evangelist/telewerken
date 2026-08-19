@@ -23,7 +23,7 @@ description: >-
   policy landscape.
 url: https://raw.githubusercontent.com/api-evangelist/telewerken/refs/heads/main/apis.yml
 modified: '2026-05-03'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 tags:
   - Belgium
   - Government Resource
