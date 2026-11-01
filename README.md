@@ -64,37 +64,104 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Telewerken.be is a Belgian information platform dedicated to remote work (telewerken), operated jointly by Vias Institute and the FOD Mobiliteit en Vervoer (Federal Public Service for Mobility and Transport). The platform provides comprehensive resources on Belgian telework legislation, regulations, employer obligations, employee rights, and telework statistics. Belgium's remote work framework is governed by Collective Bargaining Agreement No. 85 (CBA 85) and the Law of 5 March 2017 on feasible and workable work.
+Telewerken.be is a Belgian information platform dedicated to remote work (telewerken), operated jointly by Vias Institute and the FOD Mobiliteit en Vervoer (Federal Public Service for Mobility and Transport). The platform provides comprehensive resources on Belgian telework legislation, regulations, employer obligations, employee rights, and telework statistics. Belgium's remote work framework is governed by Collective Bargaining Agreement No. 85 (CBA 85) and the Law of 5 March 2017 on feasible and workable work. The platform serves both employers and employees navigating Belgium's structured telework policy landscape.
 
-**Website:** https://www.telewerken.be/
+**Areas:** Belgium · Government Resource · Policy · Remote Work · Telework · Work-Life Balance
 
-## Legal Framework
+## Telewerken on APIs.io
 
-| Law | Scope |
-|-----|-------|
-| **CAO 85 / CBA 85** | Structural telework (regular, at least 1 day/week) |
-| **Law of 5 March 2017** | Occasional/sporadic telework |
-| **Right to Disconnect (2022)** | Employers 20+ employees must formalize right to disconnect |
+Everything profiled for Telewerken is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/telewerken/](https://apis.io/providers/telewerken/)** — or go straight to one of the APIs or properties below.
 
-## Key Facts
+### Published properties
 
-- Telework is **voluntary** — employers cannot force it, employees have no automatic right to demand it
-- Structural teleworkers are entitled to employer-provided equipment and connectivity reimbursement
-- Home office allowance: up to EUR 160.99/month (tax-free, as of March 2026)
-- Equivalent rights to on-site employees under equivalence principle
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Links
+#### JSON Schema (1)
 
-- [Telewerken.be](https://www.telewerken.be/)
-- [Statistics](https://www.telewerken.be/in-cijfers/telewerken-in-het-buitenland/)
-- [Government Portal - Telework](https://werk.belgie.be/nl/themas/welzijn-op-het-werk/telewerk)
-- [Federal Public Service Resource](https://fedweb.belgium.be/nl/verlof_afwezigheid_en_werktijd/werktijd/telewerk)
+The data models the API reads and writes.
 
-## Artifacts
+- [Belgian Telework Policy](https://apis.io/schemas/telewerken/telewerken-policy/)
 
-| Artifact | Description |
-|----------|-------------|
-| [apis.yml](apis.yml) | API catalog index |
-| [vocabulary/telewerken-vocabulary.yml](vocabulary/telewerken-vocabulary.yml) | Domain vocabulary (Belgian telework terms) |
-| [json-ld/telewerken-context.jsonld](json-ld/telewerken-context.jsonld) | JSON-LD context |
-| [json-schema/telewerken-policy-schema.json](json-schema/telewerken-policy-schema.json) | Telework policy schema |
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Telewerken Context](https://apis.io/jsonld/telewerken/telewerken-context/)
+
+#### Vocabulary (1)
+
+The provider's domain terms, defined.
+
+- [Telewerken Vocabulary](https://apis.io/vocabularies/telewerken/telewerken-vocabulary/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Telewerken — jsonschema rules](https://apis.io/rules/telewerken/telewerken-jsonschema-spectral-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Telewerken Domain Security](https://apis.io/security/telewerken/telewerken-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.telewerken.be/)
+- [Documentation](https://www.telewerken.be/)
+
+## API Evangelist rating
+
+**Kin Score 9.2** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 6.7 |
+| Contract governance | 9.8 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 9.5 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.8** — Government & Public Sector
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/telewerken/](https://apis.io/providers/telewerken/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Telewerken: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/telewerken/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
